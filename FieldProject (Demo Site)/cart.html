@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nexus Market — Cart</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="index.html">Nexus Market</a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="categories.html">Categories</a>
+        <a href="deals.html">Deals</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="actions">
+        <button id="darkToggle" class="icon-btn"><span class="material-icons">dark_mode</span></button>
+        <a href="cart.html" class="icon-btn">
+          <span class="material-icons">shopping_cart</span>
+          <span id="cart-count" class="count-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container cart-main">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+
+    <div id="cart-summary" class="cart-summary">
+      <div>
+        <strong>Total:</strong> $<span id="cart-total">0.00</span>
+      </div>
+      <div>
+        <button id="clearCart" class="btn ghost">Clear</button>
+        <button id="checkout" class="btn primary">Checkout</button>
+      </div>
+    </div>
+
+    <p id="empty-note" class="muted">Your cart is empty. Head to <a href="shop.html">Shop</a> to add items.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Nexus Market</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

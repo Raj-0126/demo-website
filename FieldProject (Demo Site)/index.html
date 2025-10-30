@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nexus Market — Home</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="index.html">Nexus Market</a>
+
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="categories.html">Categories</a>
+        <a href="deals.html">Deals</a>
+        <a href="about.html">About</a>
+        <a href="#" id="signupBtn">signup</a>
+      </nav>
+
+      <div class="actions">
+        <button id="darkToggle" title="Toggle dark mode" class="icon-btn"><span class="material-icons">dark_mode</span></button>
+        <a href="cart.html" class="icon-btn">
+          <span class="material-icons">shopping_cart</span>
+          <span id="cart-count" class="count-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1>Discover Endless Possibilities</h1>
+        <p class="muted">Everything you need in one place — tech, fashion, home and beauty. Shop curated picks, hot deals and exclusive bundles.</p>
+        <div class="hero-cta">
+          <a href="shop.html" class="btn primary">Shop Now</a>
+          <a href="deals.html" class="btn ghost">See Deals</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <!-- Unsplash hero image -->
+        <img alt="Shopping" src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1400&q=80&auto=format&fit=crop" class="float" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES PREVIEW -->
+  <section class="container categories-preview">
+    <h2>Shop by category</h2>
+    <div class="grid categories-grid">
+      <a href="categories.html#electronics" class="category-card">
+        <img src="image2.jpg" alt="Electronics">
+        <div class="cat-title"><span class="material-icons">devices</span> Electronics</div>
+      </a>
+      <a href="categories.html#fashion" class="category-card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80&auto=format&fit=crop" alt="Fashion">
+        <div class="cat-title"><span class="material-icons">checkroom</span> Fashion</div>
+      </a>
+      <a href="categories.html#home" class="category-card">
+        <img src="image7.jpg" alt="Home">
+        <div class="cat-title"><span class="material-icons">home</span> Home</div>
+      </a>
+      <a href="categories.html#beauty" class="category-card">
+        <img src="image8.jpg" alt="Beauty">
+        <div class="cat-title"><span class="material-icons">spa</span> Beauty</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURED / HOT DEALS -->
+  <section class="container highlights">
+    <h2>Featured picks</h2>
+    <div id="featured-grid" class="grid product-grid"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Nexus Market</strong>
+        <p class="muted">Quality products, curated deals, and fast delivery.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="shop.html">All products</a><br>
+        <a href="deals.html">Deals</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="about.html">About</a><br>
+        <a href="cart.html">Cart</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Nexus Market</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nexus Market — Categories</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="categories">
+
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="index.html">Nexus Market</a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="categories.html" class="active">Categories</a>
+        <a href="deals.html">Deals</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="actions">
+        <button id="darkToggle" class="icon-btn"><span class="material-icons">dark_mode</span></button>
+        <a href="cart.html" class="icon-btn">
+          <span class="material-icons">shopping_cart</span>
+          <span id="cart-count" class="count-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Categories</h1>
+    <div class="grid categories-grid">
+      <!-- these links filter shop by category -->
+      <a href="shop.html?category=electronics" class="category-card">
+        <img src="image2.jpg" alt="">
+        <div class="cat-title"><span class="material-icons">devices</span> Electronics</div>
+      </a>
+      <a href="shop.html?category=fashion" class="category-card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=900&q=80&auto=format&fit=crop" alt="">
+        <div class="cat-title"><span class="material-icons">checkroom</span> Fashion</div>
+      </a>
+      <a href="shop.html?category=home" class="category-card">
+        <img src="image7.jpg" alt="">
+        <div class="cat-title"><span class="material-icons">home</span> Home</div>
+      </a>
+      <a href="shop.html?category=beauty" class="category-card">
+        <img src="image8.jpg" alt="">
+        <div class="cat-title"><span class="material-icons">spa</span> Beauty</div>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Nexus Market</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
